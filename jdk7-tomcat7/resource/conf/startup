@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+SELF_BASE=$(dirname $(dirname $(readlink -f $0)))
+
+export CATALINA_BASE=${SELF_BASE}
+source ${SELF_BASE}/sbin/setenv.sh
+echo $CATALINA_BASE
+exec /opt/tomcat7/bin/catalina.sh "$@"

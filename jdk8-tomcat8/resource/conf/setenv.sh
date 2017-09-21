@@ -3,7 +3,7 @@
 #--============================================--#
 export JAVA_HOME="/usr/java/default"
 export CATALINA_OUT="$CATALINA_BASE"/logs/catalina.out
-export CATALINA_PID="$CATALINA_BASE"/vars/run/tomcat7.pid
+export CATALINA_PID="$CATALINA_BASE"/vars/run/tomcat8.pid
 export CATALINA_TMPDIR="$CATALINA_BASE"/vars/tmp
 
 

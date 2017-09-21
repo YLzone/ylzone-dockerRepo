@@ -14,9 +14,9 @@ FILE_SERVER=${FILE_SERVER:-"http://ow5sr4xo5.bkt.clouddn.com"}
 DOCK_REGISTRY=${REGISTRY:-"ylzone"}
 DOCK_REPOSITORY=jdk8-tomcat8
 
-fileurl=${FILE_SERVER}/deploy/tomcat/apache-tomcat-7.0.72.tar.gz
-file=${SELF_BASE}/resource/apache-tomcat-7.0.72.tar.gz
-filemd5="c24bfae15bb9c510451a05582aae634d"
+fileurl=${FILE_SERVER}/deploy/tomcat/apache-tomcat-8.0.39.tar.gz
+file=${SELF_BASE}/resource/apache-tomcat-8.0.39.tar.gz
+filemd5="529c26b1987e2bd5e04785ef7c814271"
 
 echoEnv() {
     echo "======================= ECHO ENV ======================="
